@@ -1,0 +1,7 @@
+Initial and Final portfolio values
+Total Return
+Logarithmic Return
+Compounded Return
+Average Daily Return
+Daily Return Variance 
+Sharp Ratio
