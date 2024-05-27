@@ -1,0 +1,10 @@
+This research explores the application of Deep Reinforcement Learning (DRL) algorithms in algorithmic trading, a domain characterised by complex decision-making and dynamic market conditions. 
+DRL, known for its ability to handle large state and action spaces, offers a promising foundation for developing automated trading systems. While DRL algorithms hold immense potential, they face 
+challenges such as sensitivity to noisy data, suboptimal solutions, and overfitting. This research proposes a hybrid DQN algorithm incorporating a statistical auxiliary algorithm for hyperparameter 
+optimisation to address these issues.This novel approach enables the algorithm to adapt to changing market conditions and optimise risk-return trade-offs.The methodology involves 
+training and testing the DQN algorithm on three asset classes, including US stocks, stock exchange indices, and cryptocurrencies. The developed algorithm leverage Experience Replay and Target Networks 
+to enhance training stability and efficiency. We identified optimal hyperparameters for the DQN algorithm through Bayesian optimisation, ensuring its effectiveness.Performance evaluation demonstrates 
+that the DQN algorithm consistently outperforms benchmark strategies across various asset classes, including Buy and Hold (B&H) and Moving Average Strategies (MAS). The algorithm exhibits superior profitability 
+and risk management, as evidenced by significant growth in initial funds and an impressive Sharpe ratio.Sensitivity analysis reveals the algorithm's responsiveness to transaction costs, emphasising the importance 
+of optimising execution strategies. While the algorithm remains profitable despite high transaction costs, cost-effective execution is crucial, especially in high-frequency trading scenarios. Robustness 
+analysis using bootstrap sampling reaffirms the stability of the DQN algorithm's Sharpe ratio across different asset types. This robustness underscores the algorithm's adaptability to diverse market conditions.
